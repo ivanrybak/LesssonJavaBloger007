@@ -13,7 +13,7 @@ public class Main {
         //  a=12+c;
         System.out.println(a+b+c);
 
-      /*   используя if (else) нприсать код, который в зависимости от ввода сезона выведет в консоль
+      /*   используя if (else) написать код, который в зависимости от ввода сезона выведет в консоль
                 название на английском языке*/
        /* Scanner in = new Scanner(System.in);
         System.out.print("Input a name season: ");
