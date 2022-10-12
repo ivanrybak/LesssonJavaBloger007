@@ -6,8 +6,9 @@ public class Bank {
     public static void main(String[] args) {
         Bankomat bankomat = new Bankomat();
         bankomat.setSum(100);
-        bankomat.methodIn();
-        bankomat.MyBalance();
+
+            bankomat.methodIn();
+            bankomat.MyBalance();
 
 
     }

@@ -19,23 +19,19 @@ public class Bankomat {
         card = scr.nextInt();
         if (card == 1) {
             System.out.println("ВВедите пароль");
-            Scanner scr1 = new Scanner(System.in);
-            pin = scr1.nextInt();
+                     pin = scr.nextInt();
             if (pin == 1234) {
+
                 System.out.println("Внести наличные нажми: 1/ снять наличные нажми: 2");
-                Scanner scr2 = new Scanner(System.in);
-                money = scr2.nextInt();
+                  money = scr.nextInt();
                 if (money == 1) {
                     System.out.println("Укажите внесенную сумму");
-                    Scanner scr3 = new Scanner(System.in);
-                    sum[0] = scr3.nextInt();
-
+                    sum[0] = scr.nextInt();
                 } else if (money == 2) {
                     System.out.println("Укажите снятую сумму");
-                    Scanner scr3 = new Scanner(System.in);
-                    sum[1] = scr3.nextInt();
-
+                     sum[1] = scr.nextInt();
                 }
+
             } else if (pin != 1234) {
                 System.out.println("Неверный пароль! Заберите карту!");
             }
